@@ -8,7 +8,7 @@ A platform connecting Nigerian university students with academic consultants. Ev
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vercel.com/)
 
-**Live:** [accordiax.vercel.app](https://accordiax.vercel.app)
+**Live:** [accordiax.com](https://www.accordiax.com)
 
 ---
 
@@ -90,27 +90,20 @@ Across Nigerian universities, students hire educational consultants through info
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/Dammy7942/accordiax.git
+git clone https://github.com/Nextrium/accordiax.git
 cd accordiax
 npm install
 ```
 
 ### 2. Environment variables
 
-Create a `.env.local` file in the project root:
+Copy the example file. Its fake values are enough to build and run the tests:
 
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-
-NEXT_PUBLIC_FLUTTERWAVE_PUBLIC_KEY=your_flutterwave_public_key
-FLUTTERWAVE_SECRET_KEY=your_flutterwave_secret_key
-
-BREVO_API_KEY=your_brevo_api_key
-
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+```bash
+cp .env.example .env.local
 ```
+
+For a working local app, replace them with your own Supabase project and Flutterwave test keys.
 
 ### 3. Run the dev server
 
@@ -169,6 +162,12 @@ lib/
 
 ---
 
+## Contributing
+
+Tasks live in the [contributors portal](https://contribute.nextrium.org/). Read [CONTRIBUTING.md](CONTRIBUTING.md) and the [handbook](docs/HANDBOOK.md) before opening a pull request. Report security problems privately as described in [SECURITY.md](SECURITY.md).
+
+---
+
 ## License
 
-MIT
+[MIT](LICENSE) © Nextrium Global Innovations Ltd
