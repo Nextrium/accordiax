@@ -1,0 +1,89 @@
+{
+  "app/admin/disputes/page.tsx": {
+    "react-hooks/immutability": {
+      "count": 1
+    }
+  },
+  "app/admin/escrow/page.tsx": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 1
+    }
+  },
+  "app/admin/layout.tsx": {
+    "react-hooks/set-state-in-effect": {
+      "count": 1
+    }
+  },
+  "app/admin/page.tsx": {
+    "react-hooks/immutability": {
+      "count": 1
+    }
+  },
+  "app/admin/payouts/page.tsx": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 1
+    },
+    "react-hooks/immutability": {
+      "count": 1
+    }
+  },
+  "app/admin/reports/page.tsx": {
+    "react-hooks/immutability": {
+      "count": 1
+    }
+  },
+  "app/admin/verification/page.tsx": {
+    "react-hooks/immutability": {
+      "count": 2
+    }
+  },
+  "app/agreement/[id]/page.tsx": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 1
+    }
+  },
+  "app/api/admin/escrow/route.ts": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 2
+    }
+  },
+  "app/api/admin/payouts/route.ts": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 6
+    }
+  },
+  "app/consultant-dashboard/page.tsx": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 23
+    },
+    "react-hooks/static-components": {
+      "count": 4
+    }
+  },
+  "app/requests/[id]/page.tsx": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 2
+    }
+  },
+  "app/student-dashboard/page.tsx": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 6
+    },
+    "react-hooks/immutability": {
+      "count": 2
+    },
+    "react-hooks/static-components": {
+      "count": 4
+    }
+  },
+  "components/FadeIn.tsx": {
+    "react-hooks/set-state-in-effect": {
+      "count": 1
+    }
+  },
+  "lib/supabase/api.ts": {
+    "prefer-const": {
+      "count": 1
+    }
+  }
+}
