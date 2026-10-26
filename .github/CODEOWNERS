@@ -1,0 +1,14 @@
+# Every change needs a review from the Accordiax code owners.
+*                               @Nextrium/accordiax-code-owners
+
+# Listed explicitly so they stay protected if the catch-all is ever narrowed.
+/.github/                       @Nextrium/accordiax-code-owners
+/scripts/migration-guard.mjs    @Nextrium/accordiax-code-owners
+/scripts/migration-guard.test.mjs @Nextrium/accordiax-code-owners
+/vercel.json                    @Nextrium/accordiax-code-owners
+/next.config.ts                 @Nextrium/accordiax-code-owners
+/proxy.ts                       @Nextrium/accordiax-code-owners
+/eslint-suppressions.json       @Nextrium/accordiax-code-owners
+/lib/                           @Nextrium/accordiax-code-owners
+/app/api/                       @Nextrium/accordiax-code-owners
+/app/admin/                     @Nextrium/accordiax-code-owners
